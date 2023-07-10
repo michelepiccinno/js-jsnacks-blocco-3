@@ -17,7 +17,7 @@ btnInvia.addEventListener("click", function () {
   //IMPOSTO UN WHILE PER CICLARE L'ARRAY CONTAINER
   //ALL'INTERNO INSERISCO UN FOR CHE CICLA OGNI ARRAY CHILD CON INDICE I
   while (arrayContainer.length < inputNum) {
-    let arrayNumbers = []; //SI SVUOTA OGNI VOLTA PRIMA DI RIENTRARE NEL CICLO - LA TRATTIAMO COME FOSSEUN ARRAY TEMPORANEA
+    let arrayNumbers = []; //SI SVUOTA OGNI VOLTA PRIMA DI RIENTRARE NEL CICLO - LA TRATTIAMO COME FOSSE UN ARRAY TEMPORANEA
     for (let i = 0; i < 10; i++) {
       arrayNumbers[i] = (Math.floor(Math.random() * 100));
     }
