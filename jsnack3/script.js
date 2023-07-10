@@ -12,7 +12,7 @@ btnInvia.addEventListener("click", function () {
   const inputNum = numInputElement.value;
 
   ///*  ---PRIMA ALTERNATIVA CON 1 WHILE E 1 FOR---
-  //DICHIARO L'ARRAY PADRE E GLI ARRAY CHILD
+  //DICHIARO L'ARRAY CONTAINER
   let arrayContainer = [];
   //IMPOSTO UN WHILE PER CICLARE L'ARRAY CONTAINER
   //ALL'INTERNO INSERISCO UN FOR CHE CICLA OGNI ARRAY CHILD CON INDICE I
